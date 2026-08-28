@@ -11,7 +11,7 @@ Pages:
 Brand: KASHTRONIX™
 Storefront: STORE220
 Emails: info@kashtronix.com and store220@kashtronix.com
-Instagram: https://www.instagram.com/kashtronix/
+Instagram: https://https://www.instagram.com/store220amazon/
 Amazon storefront (from supplied QR): https://www.amazon.in/storefront?me=ABE342PAME1X6&ref_=sc_ls_qr
 
 To preview locally, open index.html in a browser. All pages use relative links, so the site works as a static folder.
