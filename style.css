@@ -7,7 +7,7 @@ img{max-width:100%;display:block}
 
 /* Header */
 .nav{height:82px;padding:0 6vw;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #1d1b18;background:rgba(7,7,7,.96);position:sticky;top:0;z-index:50;backdrop-filter:blur(16px)}
-.brand img{width:160px;height:58px;object-fit:contain;mix-blend-mode:screen}
+.brand img{width:300px;height:258px;object-fit:contain;mix-blend-mode:screen}
 .nav-links{display:flex;align-items:center;gap:30px;color:#d6d0c4;font-size:14px}
 .nav-links>a,.drop-toggle{padding:30px 0;position:relative}
 .nav-links>a:hover,.drop-toggle:hover{color:var(--gold2)}
