@@ -1,16 +1,17 @@
-KASHTRONIX™ / Store220 website
-=================================
+KASHTRONIX™ / STORE220 WEBSITE
 
-Run locally:
-1. Unzip the folder.
-2. Open index.html in Chrome.
+Pages:
+- index.html — Home
+- products.html — Products
+- steam-iron.html — Micro Steam Iron detail
+- about.html — Brand story / Store220
+- contact.html — Contact
+- home.html / kitchen.html / appliances.html / electronics.html — category pages
 
-Publish:
-1. Upload/import this folder to a static hosting service such as Vercel or Cloudflare Pages.
-2. Deploy it.
-3. Connect your domain, e.g. kashtronix.com, in the hosting dashboard.
+Brand: KASHTRONIX™
+Storefront: STORE220
+Emails: info@kashtronix.com and store220@kashtronix.com
+Instagram: https://www.instagram.com/kashtronix/
+Amazon storefront (from supplied QR): https://www.amazon.in/storefront?me=ABE342PAME1X6&ref_=sc_ls_qr
 
-Before launch:
-- Replace the placeholder Amazon button/link once the Amazon listing or Brand Store is live.
-- Add your real business email/phone.
-- Add Privacy Policy and Terms pages if needed.
+To preview locally, open index.html in a browser. All pages use relative links, so the site works as a static folder.
