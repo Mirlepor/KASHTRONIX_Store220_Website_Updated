@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="KASHTRONIX™ — smart products for modern everyday living. Home, kitchen, appliances and electronics.">
+<title>KASHTRONIX™ | Smart Living. Better Made.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#home"><img src="assets/logo.jpg" alt="KASHTRONIX logo"></a>
+  <nav>
+    <a href="#home">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="nav-cta" href="#products">Explore</a><button class="menu" aria-label="Open menu">☰</button>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-copy">
+    <p class="eyebrow">KASHTRONIX™</p>
+    <h1>Smart living.<br><span>Better made.</span></h1>
+    <p class="lead">Thoughtfully selected products for the way modern homes live, work and move.</p>
+    <div class="hero-actions"><a class="button gold" href="#products">Discover our products</a><a class="button ghost" href="#about">Our story</a></div>
+    <div class="trust-row"><span>✓ Practical</span><span>✓ Modern</span><span>✓ Everyday useful</span></div>
+  </div>
+  <div class="hero-art">
+    <div class="orb"></div>
+    <div class="product-card">
+      <div class="product-label">FIRST LAUNCH</div>
+      <img src="assets/steam-iron.jpg" alt="KASHTRONIX steam iron">
+      <div class="product-overlay"><small>COMING SOON</small><strong>Smart Steam Iron</strong><span>Fabric modes · Steam · Self-clean</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="ticker"><span>HOME</span><i>✦</i><span>KITCHEN</span><i>✦</i><span>APPLIANCES</span><i>✦</i><span>ELECTRONICS</span><i>✦</i><span>& MORE</span></section>
+
+<section class="section" id="products">
+  <div class="section-head">
+    <div><p class="eyebrow">OUR COLLECTION</p><h2>Useful products.<br>Made for everyday life.</h2></div>
+    <p>We're starting with practical home appliances and building a wider collection across categories.</p>
+  </div>
+  <div class="featured-product">
+    <div class="product-photo"><div class="photo-frame"><img src="assets/steam-iron.jpg" alt="KASHTRONIX steam iron"></div></div>
+    <div class="product-info">
+      <span class="tag">FIRST PRODUCT</span><h3>Steam Iron</h3>
+      <p class="product-intro">A modern steam iron designed for convenient everyday garment care, with fabric-focused modes and a self-clean function.</p>
+      <div class="features"><div><b>01</b><span>Fabric modes</span></div><div><b>02</b><span>Steam control</span></div><div><b>03</b><span>Self-clean function</span></div></div>
+      <a class="button gold" href="#contact">Product details coming soon</a><p class="amazon-note">Launching soon on Amazon India.</p>
+    </div>
+  </div>
+  <div class="category-grid">
+    <article><span>01</span><h3>Home</h3><p>Practical products that make everyday spaces easier.</p></article>
+    <article><span>02</span><h3>Kitchen</h3><p>Modern essentials for cooking, preparing and serving.</p></article>
+    <article><span>03</span><h3>Appliances</h3><p>Useful appliances selected around real daily needs.</p></article>
+    <article><span>04</span><h3>Electronics</h3><p>Smart, functional technology without unnecessary complexity.</p></article>
+  </div>
+</section>
+
+<section class="story" id="about">
+  <div class="story-mark">K</div>
+  <div class="story-copy"><p class="eyebrow">THE IDEA</p><h2>Not just another store.</h2>
+  <p>Store220 is our storefront. <strong>KASHTRONIX™</strong> is the brand behind the products.</p>
+  <p>Our goal is simple: bring together products that are practical, thoughtfully designed and genuinely useful in everyday life.</p>
+  <div class="signature">KASHTRONIX™</div></div>
+</section>
+
+<section class="launch"><p class="eyebrow">COMING SOON</p><h2>Our first products are<br><span>almost here.</span></h2><p>Follow the journey as KASHTRONIX™ launches on Amazon India, Saudi Arabia and the USA.</p><a class="button gold" href="#contact">Stay connected</a></section>
+
+<section class="contact section" id="contact">
+  <div><p class="eyebrow">CONTACT</p><h2>Let's connect.</h2><p>For product enquiries, collaborations or business opportunities, reach out to us.</p></div>
+  <div class="contact-card">
+    <div><span>Instagram</span><strong>@store220amazon</strong></div>
+    <div><span>Storefront</span><strong>STORE220</strong></div>
+    <div><span>Brand</span><strong>KASHTRONIX™</strong></div>
+  </div>
+</section>
+</main>
+
+<footer><div class="footer-brand">KASHTRONIX™</div><div>STORE220 · Smart products for everyday life</div><div>© 2026 KASHTRONIX. All rights reserved.</div></footer>
+<script>
+const menu=document.querySelector('.menu'),nav=document.querySelector('.nav nav');
+menu.addEventListener('click',()=>nav.classList.toggle('open'));
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+</script>
+</body>
+</html>
